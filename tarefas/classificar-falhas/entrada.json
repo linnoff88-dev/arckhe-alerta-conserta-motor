@@ -16,7 +16,7 @@
  },
  {
   "n": 4,
-  "o_que_quebrou": "Crítico de chamada julgou vídeo INEMA.EDUC pela persona fixa de escritório e reprovou identificação",
+  "o_que_quebrou": "Crítico de chamada julgou vídeo ARCKHé AI.EDUC pela persona fixa de escritório e reprovou identificação",
   "correcao": "adequar somente persona à audiência pedida; crítico separado9/10 e5sim,manchete preservada"
  },
  {
@@ -31,7 +31,7 @@
  },
  {
   "n": 7,
-  "o_que_quebrou": "Registro local usou caminho relativo no workdir inemavox",
+  "o_que_quebrou": "Registro local usou caminho relativo no workdir arckhevox",
   "correcao": "Usar caminhos absolutos do hub wifi"
  },
  {
@@ -41,7 +41,7 @@
  },
  {
   "n": 9,
-  "o_que_quebrou": "refaz swarm-ficha: `--strict` reprovou cenas 4/7/8 (2,2–2,6 s sem troca DENTRO de peça cinética: ritmo.py só re-enquadra foto) e CTA da cena 9 ancorada em \"E você\" depois do url_at \"inema ponto club\"",
+  "o_que_quebrou": "refaz swarm-ficha: `--strict` reprovou cenas 4/7/8 (2,2–2,6 s sem troca DENTRO de peça cinética: ritmo.py só re-enquadra foto) e CTA da cena 9 ancorada em \"E você\" depois do url_at \"arckhe ponto club\"",
   "correcao": "+1 palavra cinética por buraco e cta(\"está grátis\") no gerar_visual.py, 1 religada; proteção: gerar_visual checar palavras cinéticas a ≤ 2 s e cta ancorada antes do url_at"
  },
  {
@@ -101,7 +101,7 @@
  },
  {
   "n": 21,
-  "o_que_quebrou": "explicavideos v1 e r7ex: Whisper \"CUDA out of memory\" com 60 GB livres — um whisper_gpu_worker do inemavox (finviral) segurava a GPU e nem torch.zeros(1,\"cuda\") abria contexto",
+  "o_que_quebrou": "explicavideos v1 e r7ex: Whisper \"CUDA out of memory\" com 60 GB livres — um whisper_gpu_worker do arckhevox (finviral) segurava a GPU e nem torch.zeros(1,\"cuda\") abria contexto",
   "correcao": "esperar o worker sair (testar torch.zeros) e retomar; nada a reconstruir"
  },
  {
@@ -111,8 +111,8 @@
  },
  {
   "n": 23,
-  "o_que_quebrou": "Gate da publicação comparou inemabuscas com origin/INEMAPRO",
-  "correcao": "usar remote inemabuscas e conferir destino antes do fetch/push"
+  "o_que_quebrou": "Gate da publicação comparou arckhebuscas com origin/ARCKHé AIPRO",
+  "correcao": "usar remote arckhebuscas e conferir destino antes do fetch/push"
  },
  {
   "n": 24,

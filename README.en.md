@@ -1,6 +1,6 @@
 # Error Alarm — audits and proposes the fix
 
-[![alerta-conserta-motor](guia/assets/banner-en.jpg)](https://inematds.github.io/alerta-conserta-motor/guia/en/)
+[![alerta-conserta-motor](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/alerta-conserta-motor/guia/en/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,7 +10,7 @@ Leaving an AI agent free to create all the time gets expensive and repeats mista
 
 ## 📖 User guide
 
-Complete guide (landing page + walkthrough): **https://inematds.github.io/alerta-conserta-motor/guia/en/**
+Complete guide (landing page + walkthrough): **https://linnoff88-dev.github.io/alerta-conserta-motor/guia/en/**
 
 <!-- VIDEO-README: entra o link do explicavideo quando publicado -->
 
@@ -19,7 +19,7 @@ Complete guide (landing page + walkthrough): **https://inematds.github.io/alerta
 Open Claude Code or Codex in your projects folder and paste:
 
 ```text
-Read the "alerta-conserta-motor" kit at https://github.com/inematds/alerta-conserta-motor (the README explains everything, including installation).
+Read the "alerta-conserta-motor" kit at https://github.com/linnoff88-dev/alerta-conserta-motor (the README explains everything, including installation).
 Then look through my projects and answer me in plain English:
 1. Do I already record what goes wrong (failures, blockers, rejections, lessons)? If not, how do I start with one line per error?
 2. Run today's alert on my projects and show me the error that has come back the most.
@@ -32,7 +32,7 @@ Don't change anything or enable any scheduled tasks yet. Show me the plan and wa
 
 A free agent is useful for what is new. For what repeats, it spends too much and makes a different kind of mistake each time. When a repeated task becomes an **engine** (fixed steps + AI only for judgment + checking + one line in the notebook when it fails), and the engine is improved every week based on what the alert shows, repeated errors decrease, spending goes down, and delivery is consistent every day.
 
-## The evidence (measured on 20/11/2026, across INEMA's 231 projects)
+## The evidence (measured on 20/11/2026, across ARCKHé AI's 231 projects)
 
 | What | Result |
 |---|---|
@@ -53,7 +53,7 @@ The cost is the `total_cost_usd` reported by Claude Code. With a subscription, y
 **Prerequisites:** Python 3.9+ (no dependencies). For `medir.py`: Claude Code (`claude`) and/or Codex (`codex`), signed in through your subscription.
 
 ```bash
-git clone https://github.com/inematds/alerta-conserta-motor.git && cd alerta-conserta-motor
+git clone https://github.com/linnoff88-dev/alerta-conserta-motor.git && cd alerta-conserta-motor
 python3 -m unittest discover -s tests -v        # 12 tests, no network or model
 
 python3 alerta.py --raiz ~/projetos             # today's report (today + yesterday)
@@ -111,9 +111,9 @@ A folder with `pedido.txt`, `entrada.json` (optional), and `oculto/checar.py`, w
 
 ## Works well with
 
-- [agente-que-aprende](https://github.com/inematds/agente-que-aprende): turns a lesson into a hook that blocks the wrong command (the “block” stage).
-- [SIL Loop R](https://github.com/inematds/sil-loop-r): a human gate for turning a lesson into a rule.
+- [agente-que-aprende](https://github.com/linnoff88-dev/agente-que-aprende): turns a lesson into a hook that blocks the wrong command (the “block” stage).
+- [SIL Loop R](https://github.com/linnoff88-dev/sil-loop-r): a human gate for turning a lesson into a rule.
 
 ## License
 
-MIT · free at [inema.club](https://inema.club), available directly on the internet.
+MIT · free at [linnoff88-dev.github.io](https://linnoff88-dev.github.io), available directly on the internet.

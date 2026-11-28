@@ -5,7 +5,7 @@ aprendizado semanal e medição de modelo × esforço. Python 3 puro, sem rede, 
 
 - Testes: `python3 -m unittest discover -s tests -v` (não chamam modelo).
 - `medir.py` só roda pela assinatura (`claude -p` / `codex exec`), remove chaves de API do ambiente. Nunca trocar por API.
-- Autor dos commits: conta inematds. Versão em `VERSION` (semver do Nei: minor carrega o patch).
+- Autor dos commits: conta linnoff88-dev. Versão em `VERSION` (semver do Nei: minor carrega o patch).
 - Guia em `guia/` (PT) + `guia/en/` + `guia/es/`.
 
 ## Self-learning

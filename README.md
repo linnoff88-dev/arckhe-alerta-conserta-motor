@@ -1,6 +1,6 @@
 # Alarme dos Erros — audita e propõe o conserto
 
-[![alerta-conserta-motor](guia/assets/banner.jpg)](https://inematds.github.io/alerta-conserta-motor/guia/)
+[![alerta-conserta-motor](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/alerta-conserta-motor/guia/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -10,7 +10,7 @@ Deixar um agente de IA livre para criar o tempo todo sai caro e repete erros. Es
 
 ## 📖 Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/alerta-conserta-motor/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/alerta-conserta-motor/guia/**
 
 <!-- VIDEO-README: entra o link do explicavideo quando publicado -->
 
@@ -19,7 +19,7 @@ Guia completo (landing + passo a passo): **https://inematds.github.io/alerta-con
 Abra o Claude Code ou o Codex na pasta dos seus projetos e cole:
 
 ```text
-Leia o kit "alerta-conserta-motor" em https://github.com/inematds/alerta-conserta-motor (o README explica tudo, inclusive a instalação).
+Leia o kit "alerta-conserta-motor" em https://github.com/linnoff88-dev/alerta-conserta-motor (o README explica tudo, inclusive a instalação).
 Depois olhe os meus projetos e me responda em português simples:
 1. Eu já anoto o que dá errado (falhas, bloqueios, reprovações, lições)? Se não, como começo com uma linha por erro?
 2. Rode o alerta do dia nos meus projetos e me mostre o erro que mais voltou.
@@ -32,7 +32,7 @@ Não mude nada nem ligue nenhum agendamento ainda. Mostre o plano e espere eu di
 
 Agente livre serve para o que é novo. Para o que se repete, ele gasta demais e erra de um jeito diferente a cada vez. Quando a tarefa repetida vira **motor** (passos fixos + IA só no julgamento + conferência + uma linha no caderno quando falha), e o motor é melhorado toda semana pelo que o alerta mostra, o erro repetido cai, o gasto cai e a entrega fica igual todo dia.
 
-## A prova (medida em 20/11/2026, nos 231 projetos do INEMA)
+## A prova (medida em 20/11/2026, nos 231 projetos do ARCKHé AI)
 
 | O quê | Resultado |
 |---|---|
@@ -53,7 +53,7 @@ O custo é o `total_cost_usd` que o Claude Code informa. Na assinatura você nã
 **Pré-requisitos:** Python 3.9+ (sem dependências). Para `medir.py`: o Claude Code (`claude`) e/ou o Codex (`codex`) logados pela assinatura.
 
 ```bash
-git clone https://github.com/inematds/alerta-conserta-motor.git && cd alerta-conserta-motor
+git clone https://github.com/linnoff88-dev/alerta-conserta-motor.git && cd alerta-conserta-motor
 python3 -m unittest discover -s tests -v        # 12 testes, sem rede e sem modelo
 
 python3 alerta.py --raiz ~/projetos             # relatório do dia (hoje + ontem)
@@ -111,9 +111,9 @@ Uma pasta com `pedido.txt`, `entrada.json` (opcional) e `oculto/checar.py`, que 
 
 ## Combina com
 
-- [agente-que-aprende](https://github.com/inematds/agente-que-aprende): transforma uma lição em gancho que bloqueia o comando errado (o degrau "trava").
-- [SIL Loop R](https://github.com/inematds/sil-loop-r): portão humano para lição virar regra.
+- [agente-que-aprende](https://github.com/linnoff88-dev/agente-que-aprende): transforma uma lição em gancho que bloqueia o comando errado (o degrau "trava").
+- [SIL Loop R](https://github.com/linnoff88-dev/sil-loop-r): portão humano para lição virar regra.
 
 ## Licença
 
-MIT · grátis no [inema.club](https://inema.club), direto na internet.
+MIT · grátis no [linnoff88-dev.github.io](https://linnoff88-dev.github.io), direto na internet.

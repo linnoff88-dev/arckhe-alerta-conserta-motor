@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""alerta.py — o alerta do dia: o que deu errado ontem/hoje e o que JÁ tinha dado errado antes.
+"""alerta.py — o alerta do dia: o que deu errado ontem/hoje e o que Já tinha dado errado antes.
 
 Lê FALHAS.md, LIMITES.md, revisor-falhas.md e LESSONS.md da raiz e dos projetos abaixo dela.
 Não chama modelo, não usa rede. Custa zero token.
